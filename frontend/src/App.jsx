@@ -6,8 +6,9 @@ import Login from './pages/Login';
 import Contact from './pages/Contact';
 import MyProfile from './pages/MyProfile';
 import MyAppointment from './pages/MyAppointment';
-import Appointment from './Appointment';
+import Appointment from './pages/Appointment';
 import { Navbar } from './components/Navbar';
+import Footer from './components/Footer';
 function App() {
 
   return (
@@ -51,7 +52,7 @@ function App() {
           element={<Appointment />}
         />
       </Routes>
-
+<Footer/>
     </div>
   )
 }
